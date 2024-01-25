@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct PersonalStatementView: View {
+    let personalStatement: PersonalStatement
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Text(personalStatement.title)
+                .font(.system(size: .microsoftSize(11)))
+                .secondaryColourTheme()
+                .bold()
+            
+            Text(personalStatement.statement)
+                .font(.system(size: .microsoftSize(11)))
+                .multilineTextAlignment(.leading)
+            
+                .padding(.trailing, 5)
+            
+                .padding(.horizontal)
+            
+        }
+        
+        .padding(.horizontal)
+        
+        .a4Width()
+        
     }
 }
 
 #Preview {
-    PersonalStatementView()
+    PersonalStatementView(personalStatement: .example)
+        .environmentObject(CVFormattingManager())
+        .previewBorder()
 }

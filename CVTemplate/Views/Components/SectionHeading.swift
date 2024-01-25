@@ -13,6 +13,7 @@ struct SectionHeading: View {
     
     var body: some View {
         Text(title)
+            .tertiaryTextColour()
         
             .multilineTextAlignment(.center)
             .headingModifier()

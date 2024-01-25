@@ -19,7 +19,6 @@ struct PrimaryColourTheme: ViewModifier {
     }
 }
 
-
 extension View {
     func primaryColourTheme() -> some View {
         modifier(PrimaryColourTheme())
@@ -37,12 +36,12 @@ struct SecondaryColourTheme: ViewModifier {
     }
 }
 
-
 extension View {
     func secondaryColourTheme() -> some View {
         modifier(SecondaryColourTheme())
     }
 }
+
 
 // MARK: - Secondary Heading Theme
 
@@ -54,12 +53,12 @@ struct SecondaryHeadingTheme: ViewModifier {
     }
 }
 
-
 extension View {
     func secondaryHeadingTheme() -> some View {
         modifier(SecondaryHeadingTheme())
     }
 }
+
 
 // MARK: - Secondary Text Colour
 
@@ -76,6 +75,7 @@ extension View {
         modifier(SecondaryTextColour())
     }
 }
+
 
 // MARK: - Tertiary Text Colour
 

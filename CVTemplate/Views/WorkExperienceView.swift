@@ -8,11 +8,32 @@
 import SwiftUI
 
 struct WorkExperienceView: View {
+    
+    let workExperiences: [WorkExperience]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+           
+            SectionHeading(title: "Work & Relevant Experience")
+            
+            ForEach(workExperiences, id: \.self) { workExperience in
+                WorkExperienceComponentView(workExperience: workExperience)
+                    .padding(.horizontal)
+                    .padding(.vertical, 1)
+            }
+            
+        }
+        
+        
+        .a4Width()
+        
+        
     }
 }
 
 #Preview {
-    WorkExperienceView()
+    WorkExperienceView(workExperiences: WorkExperience.examples)
+        .environmentObject(CVFormattingManager())
+        .previewBorder()
 }

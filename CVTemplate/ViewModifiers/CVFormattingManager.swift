@@ -14,6 +14,7 @@ class CVFormattingManager: ObservableObject {
     
     @Published var primaryColourTheme: Color = Color(red: 194/255, green: 215/255, blue: 155/255)
     @Published var secondaryColourTheme = Color(red: 62/255, green: 80/255, blue: 30/255)
+    
     @Published var secondaryHeadingTheme = Color(red: 206/255, green: 222/255, blue: 175/255)
     
     

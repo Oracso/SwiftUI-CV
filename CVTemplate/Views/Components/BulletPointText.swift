@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct BulletPointText: View {
-    let text: String
+    init(text: String) {
+        self.text = Text(text)
+    }
+    init(text: Text) {
+        self.text = text
+    }
+    
+    let text: Text
+    
     var body: some View {
         HStack(alignment: .top) {
             VStack {
                 Text("•")
-//                    .padding(.trailing, 5) // Adjust the spacing as needed
             }
-            
             VStack {
-                Text(text)
-//                    .fixedSize(horizontal: false, vertical: true)
-//                    .padding(.leading, 5) // Adjust the spacing as needed
+                text
             }
-            
         }
-        //        Text("• \(text)")
     }
 }
 

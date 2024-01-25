@@ -11,18 +11,38 @@ struct CVParentView: View {
     
     let cvData = CVData.example
     
+    @StateObject var cvFormattingManager = CVFormattingManager()
+    
     var body: some View {
         
-        VStack {
+//                LazyHGrid(rows: [GridItem(.adaptive(minimum: 595.2, maximum: 595.2))], content: {
+//                LazyVGrid(columns: [GridItem(.adaptive(minimum: 841.8, maximum: 841.8))], content: {
+        //        VStack {
+        ScrollView {
+            HeadingView(personalDetails: cvData.personalDetails)
             
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            PersonalStatementView(personalStatement: cvData.personalStatement)
+            
+            WorkExperienceView(workExperiences: cvData.workExperiences)
+            
+            EducationView(education: cvData.education)
+            
+            TechnicalSkillsView(technicalSkills: cvData.technicalSkills)
+            
+            ReferencesView(references: cvData.references)
             
         }
+                          
+//        )
+ 
+        .border(cvFormattingManager.primaryColourTheme, width: 5)
         
-        .frame(width: 595.2, height: 841.8)
-        .border(Color.blue)
         
-        .background(Color.white)
+        .a4View()
+        
+        
+        .environmentObject(cvFormattingManager)
+        
         
     }
 }

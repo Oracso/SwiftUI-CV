@@ -15,9 +15,21 @@ struct EducationView: View {
         
         VStack {
             
-
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            SectionHeading(title: "Education")
             
+            ForEach(education, id: \.self) { edu in
+                HStack {
+                    BulletPointText(text: edu.courseView())
+                    .font(.system(size: .microsoftSize(11)))
+                    Spacer()
+                    Text(edu.year)
+                        .font(.system(size: .microsoftSize(10)))
+                        .fontWeight(.heavy)
+                        .secondaryColourTheme()
+                }
+                .padding(.horizontal)
+            }
+            .padding(.horizontal)
             
             
         }
@@ -29,4 +41,6 @@ struct EducationView: View {
 
 #Preview {
     EducationView(education: Education.examples)
+        .environmentObject(CVFormattingManager())
+        .previewBorder()
 }

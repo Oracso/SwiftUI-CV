@@ -11,7 +11,7 @@ import SwiftUI
 struct CVTemplateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CVParentView()
         }
     }
 }

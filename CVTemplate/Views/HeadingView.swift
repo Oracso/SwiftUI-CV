@@ -8,11 +8,45 @@
 import SwiftUI
 
 struct HeadingView: View {
+    
+    let personalDetails: PersonalDetails
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            Text(personalDetails.name)
+                .secondaryColourTheme()
+                .bold()
+            
+                .frame(maxWidth: 495.2)
+                .font(.system(size: .microsoftSize(30)))
+                .primaryColourTheme()
+                .padding(.top, 10)
+                .padding(.bottom, 2)
+            
+            LineBarWithItems(items: TextAndImage.examples)
+            
+            
+        }
+        
+        .a4Width()
+        
+        .overlay {
+            HStack {
+                Spacer()
+                Text("CV made in Xcode with SwiftUI")
+                    .font(.system(size: .microsoftSize(8)))
+            }
+            .padding(.top, -26)
+            .padding(.trailing, 13)
+        }
+        
     }
 }
 
 #Preview {
-    HeadingView()
+    HeadingView(personalDetails: .example)
+        .environmentObject(CVFormattingManager())
+        .previewBorder()
 }

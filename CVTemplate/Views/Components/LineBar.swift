@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct LineBar: View {
+    @EnvironmentObject var formattingManager: CVFormattingManager
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+            Rectangle()
+                .frame(height: 4)
+                .primaryColourTheme()
+                .frame(maxWidth: formattingManager.pointsBetweenMargin)
+        
+        
     }
 }
 
 #Preview {
     LineBar()
+        .environmentObject(CVFormattingManager())
 }
