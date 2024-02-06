@@ -2,9 +2,9 @@
 
 <section align="center">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="PreviewAssets/Page1.png" width="400" title="CV Page 1">
+  <img src="PreviewAssets/Page1.png" width="375" title="CV Page 1">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="PreviewAssets/Page2.png" width="400"  title="CV Page 2">
+  <img src="PreviewAssets/Page2.png" width="375"  title="CV Page 2">
 </section>
 
 ### Overview:
