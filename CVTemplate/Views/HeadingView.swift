@@ -35,7 +35,7 @@ struct HeadingView: View {
         .overlay {
             HStack {
                 Spacer()
-                Text("CV made in Xcode with SwiftUI")
+                Text("This CV was built using SwiftUI")
                     .font(.system(size: .microsoftSize(8)))
             }
             .padding(.top, -26)
