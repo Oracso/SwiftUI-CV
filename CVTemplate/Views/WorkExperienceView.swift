@@ -22,7 +22,7 @@ struct WorkExperienceView: View {
                     .padding(.horizontal)
                     .padding(.vertical, 1)
             }
-            
+//            .padding(.top, 20)
         }
         
         
