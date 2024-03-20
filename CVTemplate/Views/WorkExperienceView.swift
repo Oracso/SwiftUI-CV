@@ -14,7 +14,7 @@ struct WorkExperienceView: View {
     var body: some View {
         
         VStack {
-           
+            
             SectionHeading(title: "Work & Relevant Experience")
             
             ForEach(workExperiences, id: \.self) { workExperience in

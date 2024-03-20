@@ -61,3 +61,9 @@ extension CGFloat {
 
 // 0.996 = 1/72 inch
 
+
+
+// PDF Image Size:
+//1462 x 1042
+//1542 x 1122
+

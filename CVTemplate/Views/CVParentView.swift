@@ -42,7 +42,8 @@ struct CVParentView: View {
         
         
         .environmentObject(cvFormattingManager)
-        
+     
+        .scaleEffect(1.5)
         
     }
 }
