@@ -20,7 +20,15 @@ extension WorkExperience {
             jobTitle: "Swift Developer",
             company: "Freelance",
             dates: "Jan 2021 - Present",
-            statements: ["Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.", "Effectively incorporated data structures and concurrency, in addition to a solid understanding of OOP principles, methodologies, design principles, patterns, and architectures to develop fully scalable and maintainable code.", "Managed the development lifecycle of designs on multiple targets (MacOS, iOS, WatchOS)", "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI)", "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.", "Effectively implemented version control using Git/GitHub to ensure maintainable code.", "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles."]
+            statements: [
+                "Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.",
+                "Effectively incorporated data structures and concurrency, in addition to a solid understanding of OOP principles, methodologies, design principles, patterns, and architectures to develop fully scalable and maintainable code.",
+                "Managed the development lifecycle of designs on multiple targets (MacOS, iOS, WatchOS)",
+                "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI & more)",
+                "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.",
+                "Effectively implemented version control using Git/GitHub to ensure maintainable code.", 
+                "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles."
+            ]
         ),
         WorkExperience(
             jobTitle: "Learning Consultant",
@@ -60,3 +68,12 @@ extension WorkExperience {
         ),
     ]
 }
+
+
+
+//WorkExperience(
+//    jobTitle: "Swift Developer",
+//    company: "Freelance",
+//    dates: "Jan 2021 - Present",
+//    statements: ["Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.", "Effectively incorporated data structures and concurrency, in addition to a solid understanding of OOP principles, methodologies, design principles, patterns, and architectures to develop fully scalable and maintainable code.", "Managed the development lifecycle of designs on multiple targets (MacOS, iOS, WatchOS)", "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI)", "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.", "Effectively implemented version control using Git/GitHub to ensure maintainable code.", "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles."]
+//)
