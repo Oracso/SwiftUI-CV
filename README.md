@@ -69,3 +69,9 @@ I had some initial difficulty converting metric A4 measurements to Apple's resol
 ### Licensing
 
 There is [no license](https://choosealicense.com/no-permission/) associated with this project other than usual GitHub [Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service), however, please be mindful and acknowledge me as the original author if you use significant or distinct portions of this code.
+
+
+
+<!-- [![Oscar's GitHub stats](https://github-readme-stats.vercel.app/api?username=oracso)](https://github.com/oracso/github-readme-stats)
+
+https://github.com/anuraghazra/github-readme-stats -->
