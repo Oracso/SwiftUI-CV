@@ -9,7 +9,7 @@
 
 ### Overview:
 
-My **SwiftUI** CV that has been designed and built dynamically within Xcode using **SwiftUI**.
+My **SwiftUI** CV that has been designed and built dynamically within **Xcode** using **SwiftUI**.
 
 ### Use Case:
 
