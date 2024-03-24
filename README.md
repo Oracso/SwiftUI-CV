@@ -15,9 +15,9 @@ My **SwiftUI** CV, designed and built dynamically within **Xcode** using **Swift
 
 Having a CV template that dynamically adapts to updates while maintaining its theme and structure enables CVs to be seamlessly tailored to specific job roles. 
 
-This separation of a CV's content from its design allows users to select themes contextually, keeping their CVs professional and appropriate for each application. 
+The separation of a CV's content from its design allows users to select themes contextually, keeping their CVs professional and appropriate for each application. 
 
-Further, this approach also facilitates content version control, allowing users to easily manage multiple versions attuned to particular roles or as they are updated throughout a career. 
+This approach also facilitates content version control, allowing users to easily manage multiple versions attuned to particular roles as they progress and update their CV throughout their career. 
 
 
 
