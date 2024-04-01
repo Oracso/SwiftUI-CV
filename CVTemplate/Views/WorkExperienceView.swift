@@ -22,8 +22,8 @@ struct WorkExperienceView: View {
                     .padding(.horizontal)
                     .padding(.vertical, 1)
             }
-//            .padding(.top, 20)
         }
+//        .padding(.top, 5)
         
         
         .a4Width()
