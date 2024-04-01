@@ -27,7 +27,8 @@ extension WorkExperience {
                 "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI & more)",
                 "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.",
                 "Effectively implemented version control using Git/GitHub to ensure maintainable code.", 
-                "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles."
+                "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles.",
+                "Proficient in utilising RESTful APIs for seamless integration and data exchange between client and server in Xcode projects."
             ]
         ),
         WorkExperience(
