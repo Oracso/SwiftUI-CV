@@ -7,6 +7,11 @@
   <img src="PreviewAssets/Page2.png" width="375"  title="CV Page 2">
 </section>
 
+<p align="center">
+<a href="https://github.com/Oracso/SwiftUI-CV/blob/main/PreviewAssets/OscarHardyCV.pdf">Download PDF</a>
+</p>
+
+
 ### Overview:
 
 My **SwiftUI** CV, designed and built dynamically within **Xcode** using **SwiftUI**.
