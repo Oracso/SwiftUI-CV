@@ -16,13 +16,14 @@ struct WorkExperienceView: View {
         VStack {
             
             SectionHeading(title: "Work & Relevant Experience")
-            
+//                .padding(.bottom, -10)
             ForEach(workExperiences, id: \.self) { workExperience in
                 WorkExperienceComponentView(workExperience: workExperience)
                     .padding(.horizontal)
                     .padding(.vertical, 1)
             }
         }
+//        .padding(.top, -5)
 //        .padding(.top, 5)
         
         

@@ -22,7 +22,8 @@ struct HeadingView: View {
                 .frame(maxWidth: 495.2)
                 .font(.system(size: .microsoftSize(30)))
                 .primaryColourTheme()
-                .padding(.top, 10)
+//                .padding(.top, 10)
+                .padding(.top, 5)
                 .padding(.bottom, 2)
             
             LineBarWithItems(items: TextAndImage.examples)

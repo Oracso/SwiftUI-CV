@@ -18,7 +18,7 @@ extension WorkExperience {
     static let examples: [WorkExperience] = [
         WorkExperience(
             jobTitle: "Swift Developer",
-            company: "Freelance",
+            company: "Personal Projects",
             dates: "Jan 2021 - Present",
             statements: [
                 "Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.",
@@ -35,19 +35,19 @@ extension WorkExperience {
             jobTitle: "Learning Consultant",
             company: "Department of Work & Pensions (DWP)",
             dates: "May 2023 - Present",
-            statements: ["Managed large datasets and databases with sensitive data, whilst maintaining GDPR principles.", "Led the successful design, delivery, and maintenance of learning materials for multiple internal teams within strict deadlines.", "Advertised, screened and managed cohorts obtaining new professional qualifications.", "Trained and up-skilled a variety of stakeholders through presentations with the goal of propagating learning techniques and resources to the wider team.", "Appointed secretariat for senior leaders to orchestrate communications, including developing and sending out agendas and acting as a notary for principal meetings."]
+            statements: ["Managed large datasets and databases with sensitive data, whilst maintaining GDPR principles.", "Led the successful design, delivery, and maintenance of learning materials for multiple internal teams within strict deadlines.", "Advertised, screened and managed cohorts of individuals pursuing new professional qualifications.", "Trained and up-skilled a variety of stakeholders through presentations, effectively disseminating resources and learning techniques across the organisation.", "Appointed secretariat for senior leaders to orchestrate communications, including developing and sending out agendas and acting as a notary for principal meetings."]
         ),
         WorkExperience(
             jobTitle: "Service Innovation Lead",
             company: "Department of Work & Pensions (DWP)",
             dates: "Feb 2022 – Jul 2022",
-            statements: ["Responsible for supporting all West London job centres with their technical and operational issues.", "Facilitated creation, maintenance and management of JIRA tickets and user stories, encouraging agile product management.", "Collated and presented data with business strategy & senior management teams of complex issues to enable coordination with and education for the wider team.", "Handled client queries through policy enforcement and training.", "Evaluated ticket history to ensure client requests were met and raised further tickets to direct work to other teams."]
+            statements: ["Responsible for supporting all West London job centres and triaging their technical and operational issues.", "Facilitated creation, maintenance and management of JIRA tickets and user stories, encouraging agile product management.", "Collated and presented data with business strategy & senior management teams of complex issues to enable coordination with and education for the wider team.", "Handled client queries through policy enforcement and training.", "Evaluated ticket history to ensure client requests were met and raised further tickets to direct work to other teams."]
         ),
         WorkExperience(
             jobTitle: "Work Coach",
             company: "Department of Work & Pensions (DWP)",
             dates: "Dec 2022 - May 2023 / Feb 2021 - Feb 2022",
-            statements: ["Mentored and coached individuals utilising my in-depth working knowledge of the Universal Credit system to assist in employment and development opportunities.", "Fostered and inspired talented individuals to pursue equal opportunities, for example Generation UK, and various other accessible coding bootcamps and training courses.", "Developed advanced communication techniques in high-stakes discussions to ensure the best outcome for my clients in an empathetic and patient manner."]
+            statements: ["Mentored and coached individuals utilising my in-depth working knowledge of the Universal Credit system to assist with employment and development opportunities.", "Fostered and inspired talented individuals to pursue equal opportunities, for example Generation UK, and various other accessible coding bootcamps and training courses.", "Developed advanced communication techniques in high-stakes discussions to ensure the best outcome for my clients in an empathetic and patient manner."]
         ),
         WorkExperience(
             jobTitle: "Rock Climbing Centre Manager",
@@ -72,9 +72,31 @@ extension WorkExperience {
 
 
 
+
+
+
+// MARK: - Old Versions
+
+
 //WorkExperience(
 //    jobTitle: "Swift Developer",
 //    company: "Freelance",
 //    dates: "Jan 2021 - Present",
 //    statements: ["Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.", "Effectively incorporated data structures and concurrency, in addition to a solid understanding of OOP principles, methodologies, design principles, patterns, and architectures to develop fully scalable and maintainable code.", "Managed the development lifecycle of designs on multiple targets (MacOS, iOS, WatchOS)", "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI)", "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.", "Effectively implemented version control using Git/GitHub to ensure maintainable code.", "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles."]
 //)
+
+//WorkExperience(
+//    jobTitle: "Swift Developer",
+//    company: "Freelance",
+//    dates: "Jan 2021 - Present",
+//    statements: [
+//        "Designed and developed multiple projects using Swift 5.9, involving building complex user interfaces with SwiftUI.",
+//        "Effectively incorporated data structures and concurrency, in addition to a solid understanding of OOP principles, methodologies, design principles, patterns, and architectures to develop fully scalable and maintainable code.",
+//        "Managed the development lifecycle of designs on multiple targets (MacOS, iOS, WatchOS)",
+//        "Capable using a range of Apple’s frameworks (CoreData, CloudKit, Combine, Core Location, Swift Charts, Notification Centre, WidgetKit, Foundation, UIKit, SwiftUI & more)",
+//        "Proficient in writing unit/integration tests, as well as troubleshooting and debugging (XCTest) to produce fully testable code.",
+//        "Effectively implemented version control using Git/GitHub to ensure maintainable code.",
+//        "Working knowledge of MVVM, MVP, VIPER and SOLID architecture/programming principles.",
+//        "Proficient in utilising RESTful APIs for seamless integration and data exchange between client and server in Xcode projects."
+//    ]
+//),
